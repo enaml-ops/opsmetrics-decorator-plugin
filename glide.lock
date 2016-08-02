@@ -1,0 +1,37 @@
+hash: deb23293da5cc1b948a103968e66d01b3c9baf723bea9d8210f6f8b22cf9c524
+updated: 2016-08-02T15:02:15.306712843-04:00
+imports:
+- name: github.com/codegangsta/cli
+  version: 168c95418e66e019fe17b8f4f5c45aa62ff80e23
+- name: github.com/enaml-ops/enaml
+  version: 50794abdccbacb029fe954a44bc8d3f9ed1a9340
+- name: github.com/enaml-ops/omg-product-bundle
+  version: dff9b01dc19c03f5788a656c09b0acf21e3daa9b
+  subpackages:
+  - products/vault/enaml-gen/consul
+  - products/vault/enaml-gen/vault
+- name: github.com/enaml-ops/opsmetrics-decorator-plugin
+  version: 879b911c314eca6144a2ccf4821c8d9c19e69ada
+  subpackages:
+  - plugin/opsmetrics
+- name: github.com/enaml-ops/pluginlib
+  version: 1ede39ba694aee6e62eefce462ad87af0087f3b9
+  subpackages:
+  - pcli
+  - product
+  - util
+- name: github.com/hashicorp/go-plugin
+  version: 8cf118f7a2f0c7ef1c82f66d4f6ac77c7e27dc12
+- name: github.com/hashicorp/yamux
+  version: d1caa6c97c9fc1cc9e83bbe34d0603f9ff0ce8bd
+- name: github.com/onsi/ginkgo
+  version: 74c678d97c305753605c338c6c78c49ec104b5e7
+- name: github.com/onsi/gomega
+  version: 9ed8da19f2156b87a803a8fdf6d126f627a12db1
+- name: github.com/op/go-logging
+  version: 970db520ece77730c7e4724c61121037378659d9
+- name: github.com/xchapter7x/lo
+  version: aa2602d0e8e8647f0ce7b53109b37040941915aa
+- name: gopkg.in/yaml.v2
+  version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
+devImports: []

@@ -1,0 +1,15 @@
+package: github.com/enaml-ops/opsmetrics-decorator-plugin
+import:
+- package: github.com/enaml-ops/enaml
+- package: github.com/enaml-ops/omg-product-bundle
+  subpackages:
+  - products/vault/enaml-gen/consul
+  - products/vault/enaml-gen/vault
+- package: github.com/enaml-ops/pluginlib
+  subpackages:
+  - pcli
+  - product
+  - util
+- package: github.com/xchapter7x/lo
+- package: github.com/onsi/ginkgo
+- package: github.com/onsi/gomega
